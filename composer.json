@@ -1,0 +1,14 @@
+{
+  "name": "serverpress/phpmyadmin",
+  "description": "Builds phpMyAdmin as a Design-Time plugin for DesktopServer 3.X localhost development server.",
+  "keywords": ["localhost", "wordpress", "mysql", "php"],
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Stephen J. Carnam",
+      "email": "steve@serverpress.com",
+      "homepage": "http://serverpress.com",
+      "role": "Developer"
+    }
+  ]
+}
