@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c01ac2073566b5c79fb4aa3d0f152bf3",
+    "content-hash": "99386c254f6093613f5be1d1603a1f50",
+    "packages": [
+        {
+            "name": "steveorevo/platform-installer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Steveorevo/platform-installer.git",
+                "reference": "9402a275cf95031557c79ae296af7f7bc87104f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Steveorevo/platform-installer/zipball/9402a275cf95031557c79ae296af7f7bc87104f5",
+                "reference": "9402a275cf95031557c79ae296af7f7bc87104f5",
+                "shasum": ""
+            },
+            "require": {
+                "steveorevo/platform-installer-plugin": "*"
+            },
+            "type": "platform-installer",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen J. Carnam",
+                    "email": "steve@steveorevo.com"
+                }
+            ],
+            "description": "Allows your composer projects to easily install platform dependent packages from remote URLs to a custom folder.",
+            "keywords": [
+                "download",
+                "install",
+                "os",
+                "platform"
+            ],
+            "time": "2016-03-02 08:35:58"
+        },
+        {
+            "name": "steveorevo/platform-installer-plugin",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Steveorevo/platform-installer-plugin.git",
+                "reference": "8f19c918321c746442ec8a5925573289f7d6409f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Steveorevo/platform-installer-plugin/zipball/8f19c918321c746442ec8a5925573289f7d6409f",
+                "reference": "8f19c918321c746442ec8a5925573289f7d6409f",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Steveorevo\\Composer\\PlatformInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Steveorevo\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2016-03-03 05:02:39"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
