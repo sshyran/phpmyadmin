@@ -6,6 +6,6 @@ set -x #echo on
 #
 ############################################
 rm -rf ./builds
-mkdir -p ./builds/phpmyadmin
-cp -r ./vendor/serverpress/phpmyadmin/* ./builds/phpmyadmin/
+mkdir -p ./builds/phpmyadmin/web
+cp -r ./vendor/serverpress/phpmyadmin/* ./builds/phpmyadmin/web/
 cp -r ./src/* ./builds/phpmyadmin/
