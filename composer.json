@@ -2,6 +2,7 @@
   "name": "serverpress/phpmyadmin",
   "description": "Builds phpMyAdmin as a Design-Time plugin for DesktopServer 3.X localhost development server.",
   "keywords": ["localhost", "mysql", "phpmyadmin", "php"],
+  "type": "wordpress-plugin",
   "license": "GPL",
   "authors": [
     {
