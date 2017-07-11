@@ -18,7 +18,7 @@
     "platform-installer": {
       "all": [
         {
-          "url": "https://files.phpmyadmin.net/phpMyAdmin/4.7.1/phpMyAdmin-4.7.1-all-languages.zip",
+          "url": "https://files.phpmyadmin.net/phpMyAdmin/4.7.2/phpMyAdmin-4.7.2-all-languages.zip",
           "dir": "vendor/serverpress/phpmyadmin"
         }
       ]
